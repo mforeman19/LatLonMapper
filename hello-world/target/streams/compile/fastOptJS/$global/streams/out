@@ -1,0 +1,16 @@
+[0m[[0m[0minfo[0m] [0m[0mFast optimizing /Users/lukeandrewforeman/Projects/scalaJS/hello-world/target/scala-2.12/hello-world-fastopt.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Compute reachability: 589544 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mLinker: Assemble LinkedClasses: 1198597 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mBasic Linking: 1809009 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Batch mode: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Incremental part: 253479 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizing 826 methods.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: Optimizer part: 1524356 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mInc. optimizer: 1797734 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Compute reachability: 128840 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: Assemble LinkedClasses: 13587 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mRefiner: 147181 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Class tree cache stats: reused: 36 -- invalidated: 44[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter: Method tree cache stats: resued: 0 -- invalidated: 105[0m
+[0m[[0m[0mdebug[0m] [0m[0mEmitter (write output): 695026 us[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 13 -- trees read: 254[0m
