@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="pom"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
-		date="20190607110101"/>
+		date="20190607132030"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

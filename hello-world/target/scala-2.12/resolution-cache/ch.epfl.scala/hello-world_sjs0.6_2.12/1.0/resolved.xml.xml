@@ -4,7 +4,7 @@
 		module="hello-world_sjs0.6_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20190607110101"
+		publication="20190607132029"
 	>
 		<description>
 		hello-world
@@ -43,5 +43,6 @@
 		<dependency org="org.scala-lang.modules" name="scala-parser-combinators_2.12" rev="1.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.scala-js" name="scalajs-dom_sjs0.6_2.12" rev="0.9.7" conf="compile->default(compile)"/>
 		<dependency org="org.querki" name="jquery-facade_sjs0.6_2.12" rev="1.2" conf="compile->default(compile)"/>
+		<dependency org="io.surfkit" name="scalajs-google-maps_sjs0.6_2.12" rev="0.0.3-SNAPSHOT" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

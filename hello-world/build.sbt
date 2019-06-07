@@ -31,12 +31,17 @@ libraryDependencies += "org.typelevel" %% "cats-core" % "1.6.0"
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.0"
 libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.7" //%%% of these means using a scala.js library
 libraryDependencies += "org.querki" %%% "jquery-facade" % "1.2"
+libraryDependencies +=  "io.surfkit" %%% "scalajs-google-maps" % "0.0.3-SNAPSHOT"
+
+resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
 skip in packageJSDependencies := false
 jsDependencies +=
   "org.webjars" % "jquery" % "2.2.1" / "jquery.js" minified "jquery.min.js"
 
 jsEnv := new org.scalajs.jsenv.jsdomnodejs.JSDOMNodeJSEnv()
+
+
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the cats dependency to the set of dependencies that sbt will go

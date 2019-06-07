@@ -24,3 +24,8 @@ fastOptJS
 run
 fastOptJS
 exit
+fastOptJS 
+fastOptJS
+fastOptJS 
+fastOptJS -deprecation
+fastOptJS 

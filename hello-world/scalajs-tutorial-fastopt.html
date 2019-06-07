@@ -1,6 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Scala JS Location Finder</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+    #map-canvas {
+      height: 600px;
+    }
+  </style>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCF0XvhfxOTi6EcG_1Ctgn1g_ki8W7YwLM"></script>
+</head>
+<body>
+
+<h1>Scala JS Location Finder</h1>
+<!--
+<form id="validationForm">
+
+    <label>Latitude</label>
+    <input name="latitude" id="latitude">
+
+    <label>Longitude</label>
+    <input name="longitude" id="longitude">
+
+    <input id="submitButton" type="submit" value="submit">
+</form>
+-->
+
+<label>Latitude</label>
+<input type="number" name="latitude" id="latitude"/>
+<label>Longitude</label>
+<input type="number" name="longitude" id="longitude"/>
+<button id="button_main" type="button">
+    Click me!
+</button>
+
+<div id="playground">
+</div>
+
+
+<div id="map-canvas">
+</div>
+
+<script type="text/javascript" src="./target/scala-2.12/hello-world-jsdeps.js"></script>
+<script type="text/javascript" src="./target/scala-2.12/hello-world-fastopt.js"></script>
+<script language="JavaScript">
+  tutorial.webapp.TutorialApp().main()
+</script>
+
+</body>
+</html>
+
+<!-- Include JavaScript dependencies -->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
     <meta charset="UTF-8">
     <title>The Scala.js Tutorial</title>
 </head>
@@ -8,8 +63,15 @@
 <button id="click-me-button" type="button">
     Click me!
 </button>
-<!-- Include JavaScript dependencies -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcyJ-J7E59RqdRN_L0bRaS0_AITDYMESg"></script>
+
 <script type="text/javascript" src="./target/scala-2.12/hello-world-jsdeps.js"></script>
 <script type="text/javascript" src="./target/scala-2.12/hello-world-fastopt.js"></script>
+
+<script language="JavaScript">
+  tutorial.webapp.TutorialApp().main()
+</script>
+
 </body>
 </html>
+//-->

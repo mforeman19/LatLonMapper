@@ -7,8 +7,20 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
-		date="20190607110101"/>
+		date="20190607132030"/>
 	<dependencies>
+		<module organisation="io.surfkit" name="scalajs-google-maps_sjs0.6_2.12">
+			<revision name="0.0.3-SNAPSHOT" status="integration" pubdate="20170908095325" resolver="Sonatype OSS Snapshots" artresolver="Sonatype OSS Snapshots" homepage="http://www.surfkit.io/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="successful" details="" size="2285" time="7444" location="/Users/lukeandrewforeman/.ivy2/cache/io.surfkit/scalajs-google-maps_sjs0.6_2.12/ivy-0.0.3-SNAPSHOT.xml" searched="true" original-local-location="/Users/lukeandrewforeman/.ivy2/cache/io.surfkit/scalajs-google-maps_sjs0.6_2.12/ivy-0.0.3-SNAPSHOT.xml.original" origin-is-local="false" origin-location="https://oss.sonatype.org/content/repositories/snapshots/io/surfkit/scalajs-google-maps_sjs0.6_2.12/0.0.3-SNAPSHOT/scalajs-google-maps_sjs0.6_2.12-0.0.3-SNAPSHOT.pom"/>
+				<caller organisation="ch.epfl.scala" name="hello-world_sjs0.6_2.12" conf="compile, runtime" rev="0.0.3-SNAPSHOT" rev-constraint-default="0.0.3-SNAPSHOT" rev-constraint-dynamic="0.0.3-SNAPSHOT" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalajs-google-maps_sjs0.6_2.12" type="jar" ext="jar" status="successful" details="" size="505677" time="763" location="/Users/lukeandrewforeman/.ivy2/cache/io.surfkit/scalajs-google-maps_sjs0.6_2.12/jars/scalajs-google-maps_sjs0.6_2.12-0.0.3-SNAPSHOT.jar">
+						<origin-location is-local="false" location="https://oss.sonatype.org/content/repositories/snapshots/io/surfkit/scalajs-google-maps_sjs0.6_2.12/0.0.3-SNAPSHOT/scalajs-google-maps_sjs0.6_2.12-0.0.3-SNAPSHOT.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.querki" name="jquery-facade_sjs0.6_2.12">
 			<revision name="1.2" status="release" pubdate="20171010165551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.querki.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
@@ -38,11 +50,18 @@
 				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
 				<metadata-artifact status="no" details="" size="2941" time="0" location="/Users/lukeandrewforeman/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/ivy-0.9.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.7/scalajs-dom_sjs0.6_2.12-0.9.7.pom"/>
 				<caller organisation="org.querki" name="jquery-facade_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.3" rev-constraint-default="0.9.3" rev-constraint-dynamic="0.9.3" callerrev="1.2"/>
+				<caller organisation="io.surfkit" name="scalajs-google-maps_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.0.3-SNAPSHOT"/>
 				<caller organisation="ch.epfl.scala" name="hello-world_sjs0.6_2.12" conf="compile, runtime" rev="0.9.7" rev-constraint-default="0.9.7" rev-constraint-dynamic="0.9.7" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="scalajs-dom_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1970749" time="0" location="/Users/lukeandrewforeman/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/jars/scalajs-dom_sjs0.6_2.12-0.9.7.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.7/scalajs-dom_sjs0.6_2.12-0.9.7.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.9.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.9.7"/>
+				<caller organisation="io.surfkit" name="scalajs-google-maps_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="0.0.3-SNAPSHOT"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 			<revision name="0.9.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
@@ -120,11 +139,18 @@
 				<caller organisation="org.querki" name="jquery-facade_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.2"/>
 				<caller organisation="org.querki" name="querki-jsext_sjs0.6_2.12" conf="compile, runtime" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.8"/>
 				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="0.9.7"/>
+				<caller organisation="io.surfkit" name="scalajs-google-maps_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.0.3-SNAPSHOT"/>
 				<caller organisation="ch.epfl.scala" name="hello-world_sjs0.6_2.12" conf="compile, runtime" rev="0.6.28" rev-constraint-default="0.6.28" rev-constraint-dynamic="0.6.28" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="scalajs-library_2.12" type="jar" ext="jar" status="no" details="" size="6512809" time="0" location="/Users/lukeandrewforeman/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.28.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.28/scalajs-library_2.12-0.6.28.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.17" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.28"/>
+				<caller organisation="io.surfkit" name="scalajs-google-maps_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.0.3-SNAPSHOT"/>
+				<artifacts>
 				</artifacts>
 			</revision>
 			<revision name="0.6.13" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
@@ -160,12 +186,12 @@
 			</revision>
 		</module>
 		<module organisation="org.webjars" name="jquery">
-			<revision name="2.2.1" status="release" pubdate="20160223171448" resolver="public" artresolver="public" homepage="http://webjars.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="2.2.1" status="release" pubdate="20160223171448" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="MIT License" url="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"/>
-				<metadata-artifact status="successful" details="" size="6955" time="91" location="/Users/lukeandrewforeman/.ivy2/cache/org.webjars/jquery/ivy-2.2.1.xml" searched="true" original-local-location="/Users/lukeandrewforeman/.ivy2/cache/org.webjars/jquery/ivy-2.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/jquery/2.2.1/jquery-2.2.1.pom"/>
+				<metadata-artifact status="no" details="" size="3754" time="0" location="/Users/lukeandrewforeman/.ivy2/cache/org.webjars/jquery/ivy-2.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/jquery/2.2.1/jquery-2.2.1.pom"/>
 				<caller organisation="ch.epfl.scala" name="hello-world_sjs0.6_2.12" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="jquery" type="jar" ext="jar" status="successful" details="" size="163139" time="261" location="/Users/lukeandrewforeman/.ivy2/cache/org.webjars/jquery/jars/jquery-2.2.1.jar">
+					<artifact name="jquery" type="jar" ext="jar" status="no" details="" size="163139" time="0" location="/Users/lukeandrewforeman/.ivy2/cache/org.webjars/jquery/jars/jquery-2.2.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/jquery/2.2.1/jquery-2.2.1.jar"/>
 					</artifact>
 				</artifacts>
@@ -185,6 +211,7 @@
 				<caller organisation="org.typelevel" name="cats-kernel_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.6.0"/>
 				<caller organisation="org.typelevel" name="cats-macros_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.6.0"/>
 				<caller organisation="org.scala-js" name="scalajs-library_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.6.28"/>
+				<caller organisation="io.surfkit" name="scalajs-google-maps_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.0.3-SNAPSHOT"/>
 				<caller organisation="ch.epfl.scala" name="hello-world_sjs0.6_2.12" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5272591" time="0" location="/Users/lukeandrewforeman/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar">

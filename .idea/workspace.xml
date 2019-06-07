@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="664702e2-b75d-4600-a2aa-908723095145" name="Default Changelist" comment="" />
+    <list default="true" id="664702e2-b75d-4600-a2aa-908723095145" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/scalajs-tutorial-fastopt.html" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/scalajs-tutorial-fastopt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/src/main/scala/tutorial/webapp/TutorialApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/src/main/scala/tutorial/webapp/TutorialApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/classes/tutorial/webapp/TutorialApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/classes/tutorial/webapp/TutorialApp$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/classes/tutorial/webapp/TutorialApp$.sjsir" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/classes/tutorial/webapp/TutorialApp$.sjsir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/classes/tutorial/webapp/TutorialApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/classes/tutorial/webapp/TutorialApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/hello-world-fastopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/hello-world-fastopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/hello-world-fastopt.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/hello-world-fastopt.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/ch.epfl.scala/hello-world_sjs0.6_2.12/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/ch.epfl.scala/hello-world_sjs0.6_2.12/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/ch.epfl.scala/hello-world_sjs0.6_2.12/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/ch.epfl.scala/hello-world_sjs0.6_2.12/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-phantom-js-jetty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-phantom-js-jetty.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/scala-2.12/resolution-cache/reports/ch.epfl.scala-hello-world_sjs0.6_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/$global/$global/$global/streams/package-js-deps/in-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/$global/$global/sjsirFilesOnClasspath/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/fastOptJS/$global/streams/in-cache" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/fastOptJS/$global/streams/in-cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/fastOptJS/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/fastOptJS/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-world/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,29 +56,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="903">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-world/project/build.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello-world/src/main/scala/tutorial/webapp/TutorialApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="226">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+              <folding>
+                <element signature="e#126#157#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,15 +80,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello-world/scalajs-tutorial-fastopt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+            <state relative-caret-position="233">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="36" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello-world/project/plugins.sbt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -63,14 +95,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tutorial</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hello-world/src/main/scala/Main.scala" />
         <option value="$PROJECT_DIR$/hello-world/project/plugins.sbt" />
-        <option value="$PROJECT_DIR$/hello-world/src/main/scala/tutorial/webapp/TutorialApp.scala" />
-        <option value="$PROJECT_DIR$/hello-world/scalajs-tutorial-fastopt.html" />
         <option value="$PROJECT_DIR$/hello-world/build.sbt" />
+        <option value="$PROJECT_DIR$/hello-world/scalajs-tutorial-fastopt.html" />
+        <option value="$PROJECT_DIR$/hello-world/src/main/scala/tutorial/webapp/TutorialApp.scala" />
       </list>
     </option>
   </component>
@@ -80,6 +120,7 @@
     <option name="width" value="1094" />
     <option name="height" value="736" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -159,7 +200,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -222,20 +265,6 @@
     <entry file="file://$PROJECT_DIR$/hello-world/target/scala-2.12/hello-world-fastopt.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world/src/main/scala/tutorial/webapp/TutorialApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-world/scalajs-tutorial-fastopt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hello-world/project/build.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -243,10 +272,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world/target/scala-2.12/hello-world-jsdeps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello-world/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="903">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world/scalajs-tutorial-fastopt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world/src/main/scala/tutorial/webapp/TutorialApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#126#157#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
