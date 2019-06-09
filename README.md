@@ -1,7 +1,7 @@
 # Latitude and Longitude Mapper using Scala JS
 ## Project Description
 
-**The Scala file that is used for this project is found in src/main/scala/tutorial/webapp within the project folder
+** The Scala file that is used for this project is found in src/main/scala/tutorial/webapp within the project folder
 
 This web page takes in a two user inputs for latitude and longitude values and then returns a map using Google Maps API onto the webpage based on the values entered. 
 
