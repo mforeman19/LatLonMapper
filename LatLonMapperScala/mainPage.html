@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scala JS Location Finder</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+    #map-canvas {
+      height: 600px;
+    }
+  </style>
+    <!-- API query (You will need an API key to make this app run fully) -->
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" id="api"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+
+</head>
+<body>
+    <div>
+        <h1>Scala JS Location Finder</h1>
+    </div>
+    <!-- The following takes two inputs (latitude and longitude) and submits it on button click -->
+    <div>
+        <label>Latitude</label>
+        <input type="number" name="latitude" id="latitude"/>
+        <label>Longitude</label>
+        <input type="number" name="longitude" id="longitude"/>
+        <button id="button_main" type="button">
+            Click me!
+        </button>
+    </div>
+
+    <!-- For placing the map within the page -->
+    <div id="playground">
+    </div>
+    <div id="map-canvas">
+    </div>
+
+    <div>
+        <!-- Include Scala.js compiled code -->
+        <script type="text/javascript" src="./target/scala-2.12/latlonmapperscala-jsdeps.js"></script>
+        <script type="text/javascript" src="./target/scala-2.12/latlonmapperscala-fastopt.js"></script>
+        <script language="JavaScript">
+            tutorial.webapp.LatLonApp().main()
+        </script>
+    </div>
+    </body>
+</html>
