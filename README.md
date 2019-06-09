@@ -13,4 +13,4 @@ For this project, I used [Scala JS](https://www.scala-js.org/), a tool built to 
 ### Author's Notes
 For this personal project, I wanted to play around with the capabilities of Scala. Using Scala as a front-end language for a website seemed to be fairly unconventional for the language, so it seemed exciting to try. If you are interested in Scala JS, I do recommend it if you are looking for a typesafe and easy-to-read language in comparison to standard Javascript.
 
-
+**NOTE: You will need an API key in order to properly run this program**
